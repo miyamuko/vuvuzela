@@ -1,24 +1,26 @@
 2010-06-27  MIYAMUKO Katsuyuki
 
-	* (*vuvuzela-repeat-p*): history-variable ‚É‚µ‚½
+	* vuvuzela 0.0.1 released!
 
-	* (toggle-vuvuzela-repeat): ˆø”‚Å–¾¦“I‚Éó‘Ô‚ğw’è‚Å‚«‚é‚æ‚¤‚É‚µ‚½
+	* (*vuvuzela-repeat-p*): history-variable ã«ã—ãŸ
+
+	* (toggle-vuvuzela-repeat): å¼•æ•°ã§æ˜ç¤ºçš„ã«çŠ¶æ…‹ã‚’æŒ‡å®šã§ãã‚‹ã‚ˆã†ã«ã—ãŸ
 
 	* loop => repeat.
 
-	* (toggle-vuvuzela-loop): ƒƒbƒZ[ƒW‚ğ•\¦‚·‚é‚æ‚¤‚É‚µ‚½
+	* (toggle-vuvuzela-loop): ãƒ¡ãƒƒã‚»ãƒ¼ã‚¸ã‚’è¡¨ç¤ºã™ã‚‹ã‚ˆã†ã«ã—ãŸ
 
-	* (*vuvuzela-play-hook*, *vuvuzela-stop-hook*): ƒtƒbƒN‚ğ’Ç‰Á
-	  (vuvuzela-play, vuvuzela-stop): ƒtƒbƒN‚ğŒÄ‚Ño‚·‚æ‚¤‚É‚µ‚½
+	* (*vuvuzela-play-hook*, *vuvuzela-stop-hook*): ãƒ•ãƒƒã‚¯ã‚’è¿½åŠ 
+	  (vuvuzela-play, vuvuzela-stop): ãƒ•ãƒƒã‚¯ã‚’å‘¼ã³å‡ºã™ã‚ˆã†ã«ã—ãŸ
 
 	* (vuvuzela-install-toolbar, vuvuzela-uninstall-toolbar): export
-	  ‚µ‚È‚¢‚æ‚¤‚É‚µ‚½B
+	  ã—ãªã„ã‚ˆã†ã«ã—ãŸã€‚
 
-	* (vuvuzela-toolbar): create-toolbar ‚É“n‚·ƒVƒ“ƒ{ƒ‹‚ğƒL[ƒ[ƒh‚É‚µ‚½B
-	  ƒAƒ“ƒCƒ“ƒXƒg[ƒ‹Œã‚Å‚à (delete-command-bar :vuvuzela-toolbar) ‚Å
-	  íœ‚Å‚«‚é‚æ‚¤‚É‚·‚é‚½‚ßB
+	* (vuvuzela-toolbar): create-toolbar ã«æ¸¡ã™ã‚·ãƒ³ãƒœãƒ«ã‚’ã‚­ãƒ¼ãƒ¯ãƒ¼ãƒ‰ã«ã—ãŸã€‚
+	  ã‚¢ãƒ³ã‚¤ãƒ³ã‚¹ãƒˆãƒ¼ãƒ«å¾Œã§ã‚‚ (delete-command-bar :vuvuzela-toolbar) ã§
+	  å‰Šé™¤ã§ãã‚‹ã‚ˆã†ã«ã™ã‚‹ãŸã‚ã€‚
 
 2010-06-26  MIYAMUKO Katsuyuki
 
-	* vuvuzela ì¬ŠJn
+	* vuvuzela ä½œæˆé–‹å§‹
 
