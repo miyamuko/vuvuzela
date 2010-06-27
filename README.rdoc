@@ -39,12 +39,12 @@ vuvuzela は xyzzy からブブゼラを鳴らすためのツールです。
 vuvuzela は以下のモジュールに依存しています。別途インストールしてください。
 
 * {sound}[http://miyamuko.s56.xrea.com/xyzzy/sound/intro.htm]
-
+* api
 
 === INSTALL
 
 1. {NetInstaller}[http://www7a.biglobe.ne.jp/~hat/xyzzy/ni.html]
-   で vuvuzela と sound をインストールします。
+   で vuvuzela と sound と api をインストールします。
 
 2. ni-autoload を利用していない場合は、
    ~/.xyzzy または site-lisp/siteinit.l に以下のコードを追加します。
