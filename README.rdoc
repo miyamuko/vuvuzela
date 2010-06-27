@@ -1,0 +1,127 @@
+== vuvuzela - xyzzy からブブゼラをブーブブブブブー
+
+* Home URL: http://miyamuko.s56.xrea.com/xyzzy/vuvuzela/intro.htm
+* Version: 0.0.1
+
+
+=== SYNOPSIS
+
+* ツールバー
+  - 表示 → ツールバー → ブブゼラ → ボタンをクリック
+
+* コマンド
+
+    M-x vuvuzela-play
+    M-x vuvuzela-stop
+    M-x toggle-vuvuzela-repeat
+    M-x vuvuzela-show-toolbar
+    M-x vuvuzela-hide-toolbar
+
+* 設定
+
+    (require "vuvuzela")
+
+    ;; 違うブブゼラを鳴らす例：
+    ;; http://www.filefront.com/16728021/Vuvuzela.wav/ からダウンロードして
+    ;; etc/ 配下に置いておく。
+    (setf *vuvuzela-wav* (merge-pathnames "Vuvuzela.wav" (etc-path))
+
+
+=== DESCRIPTION
+
+vuvuzela は xyzzy からブブゼラを鳴らすためのツールです。
+
+ブブブブブーブブブブーーブブーブブブブブーブブブブーーブブブーブブブブーブブブブーー
+
+
+=== REQUIREMENTS
+
+vuvuzela は以下のモジュールに依存しています。別途インストールしてください。
+
+* {sound}[http://miyamuko.s56.xrea.com/xyzzy/sound/intro.htm]
+
+
+=== INSTALL
+
+1. {NetInstaller}[http://www7a.biglobe.ne.jp/~hat/xyzzy/ni.html]
+   で vuvuzela と sound をインストールします。
+
+2. ni-autoload を利用していない場合は、
+   ~/.xyzzy または site-lisp/siteinit.l に以下のコードを追加します。
+
+     (require "vuvuzela")
+
+   ※ ni-autoload を利用している場合は設定は不要です。
+
+3. 設定を反映させるため xyzzy を再起動してください。
+
+   ※siteinit.l に記述した場合には再ダンプが必要です。
+
+4. 表示 → ツールバー → ブブゼラでツールバーを表示して
+   ボタンを押せばブブゼラがなります。
+
+
+=== TODO
+
+なし。
+
+
+=== KNOWN BUGS
+
+なし。
+
+
+=== AUTHOR
+
+みやむこ かつゆき <mailto:miyamuko@gmail.com>
+
+
+
+=== COPYRIGHT
+
+==== vuvuzela
+
+vuvuzela は MIT/X ライセンスに従って本ソフトウェアを使用、再配布することができます。
+
+  Copyright (c) 2010 MIYAMUKO Katsuyuki.
+
+  Permission is hereby granted, free of charge, to any person obtaining
+  a copy of this software and associated documentation files (the
+  "Software"), to deal in the Software without restriction, including
+  without limitation the rights to use, copy, modify, merge, publish,
+  distribute, sublicense, and/or sell copies of the Software, and to
+  permit persons to whom the Software is furnished to do so, subject to
+  the following conditions:
+
+  The above copyright notice and this permission notice shall be
+  included in all copies or substantial portions of the Software.
+
+  THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+  EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+  MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
+  NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE
+  LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION
+  OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION
+  WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+==== etc/Vuvuzela_single_note.wav
+
+etc/Vuvuzela_single_note.wav は以下の作品を元に作成しました。
+
+* DisillusionedBitterAndKnackered 氏による {Vuvuzela_single_note.ogg}[http://en.wikipedia.org/wiki/File:Vuvuzela_single_note.ogg#file]
+  - by {Creative Commons Attribution-Share Alike 3.0 Unported}[http://creativecommons.org/licenses/by-sa/3.0/]
+
+{Creative Commons Attribution-Share Alike 3.0 Unported}[http://creativecommons.org/licenses/by-sa/3.0/]
+で利用可能です。
+
+==== etc/toolbar-vuvuzela.bmp
+
+etc/toolbar-vuvuzela.bmp は以下の作品を元に作成しました。
+
+* Berndt Meyer 氏による {Vuvuzela_red.jpg}[http://en.wikipedia.org/wiki/File:Vuvuzela_red.jpg#file]
+  - by {Creative Commons Attribution-Share Alike 3.0 Unported}[http://creativecommons.org/licenses/by-sa/3.0/]
+* Mark James 氏による {Silk Icons}[http://www.famfamfam.com/lab/icons/silk/]
+  - by {Creative Commons Attribution 2.5 License}[http://creativecommons.org/licenses/by/2.5/]
+
+{Creative Commons Attribution-Share Alike 3.0 Unported}[http://creativecommons.org/licenses/by-sa/3.0/]
+で利用可能です。

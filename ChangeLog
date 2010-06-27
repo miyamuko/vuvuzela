@@ -1,0 +1,24 @@
+2010-06-27  MIYAMUKO Katsuyuki
+
+	* (*vuvuzela-repeat-p*): history-variable にした
+
+	* (toggle-vuvuzela-repeat): 引数で明示的に状態を指定できるようにした
+
+	* loop => repeat.
+
+	* (toggle-vuvuzela-loop): メッセージを表示するようにした
+
+	* (*vuvuzela-play-hook*, *vuvuzela-stop-hook*): フックを追加
+	  (vuvuzela-play, vuvuzela-stop): フックを呼び出すようにした
+
+	* (vuvuzela-install-toolbar, vuvuzela-uninstall-toolbar): export
+	  しないようにした。
+
+	* (vuvuzela-toolbar): create-toolbar に渡すシンボルをキーワードにした。
+	  アンインストール後でも (delete-command-bar :vuvuzela-toolbar) で
+	  削除できるようにするため。
+
+2010-06-26  MIYAMUKO Katsuyuki
+
+	* vuvuzela 作成開始
+

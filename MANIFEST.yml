@@ -1,0 +1,18 @@
+package: vuvuzela
+version: 0.0.1
+
+sources:
+  include:
+    - site-lisp/vuvuzela/**/*.l
+
+depends:
+  - http://xyzzy.s53.xrea.com/ni/api2006.06.15.tgz
+  - http://miyamuko.s56.xrea.com/xyzzy/archives/sound.zip
+
+files:
+  include:
+    - site-lisp/**/*.l
+    - site-lisp/**/*.lc
+    - etc/*
+  exclude:
+    - etc/*.pdn
