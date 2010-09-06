@@ -70,6 +70,10 @@ vuvuzela は以下のモジュールに依存しています。別途インス�
 
 なし。
 
+要望やバグは
+{GitHub Issues}[http://github.com/miyamuko/vuvuzela/issues] か
+{@miyamuko}[http://twitter.com/home?status=%40miyamuko%20%23xyzzy%20vuvuzela%3a%20]
+まで。
 
 === AUTHOR
 
